@@ -1,0 +1,37 @@
+h1 {
+  font-family: 'Dancing Script', sans-serif;
+  text-align: center;
+}
+
+body {
+  font-family: 'Ledger', sans-serif;
+  font-size: 12pt;
+}
+p {
+  color: black;
+}
+.bgSizeCover {
+  background-image: url("https://static.pexels.com/photos/416676/pexels-photo-416676.jpeg");
+  background-size: cover;
+  width: 98%;
+  height: 98%;
+}
+
+img {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.container {
+  position: relative;
+}
+
+.centered {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  transform: translate(-50%, -50%);
+}
